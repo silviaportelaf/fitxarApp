@@ -1,0 +1,19 @@
+{
+    "hosts": {
+        "dev": "https://arreguisafe.tecnalia.com/arreguiservice/rest/v3/"
+    },
+    "endpoints": {
+        "login": "authentication",
+        "signUp": "registerUser",
+        "logList": "simple/log/list",
+        "insertBox": "boxes/insert",
+        "updateTokenBox": "updateTokenBox",
+        "unlinkBox": "unlinkBox",
+        "listBoxes": "simple/boxes/list",
+        "checkBoxSerial": "checkBoxSerial",
+        "boxHistoryList": "simple/box_history/list",
+        "addBoxMailing":"addBoxMailing",
+        "versionCheck": "firmware/version",
+        "removeBoxMailing":"removeBoxMailing"
+    }
+}

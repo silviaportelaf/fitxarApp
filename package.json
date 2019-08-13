@@ -1,0 +1,46 @@
+{
+  "name": "ficharApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.5.0",
+    "accordion-collapse-react-native": "^0.1.11",
+    "lottie-react-native": "^2.6.1",
+    "mobx": "^5.13.0",
+    "mobx-react": "^6.1.1",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-24h-timepicker": "^1.0.0",
+    "react-native-animatable": "^1.3.2",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-elements": "^1.1.0",
+    "react-native-firebase": "^5.5.4",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-image-picker": "^1.0.2",
+    "react-native-localization": "^2.1.2",
+    "react-native-responsive-dimensions": "^2.0.1",
+    "react-native-vector-icons": "^6.5.0",
+    "react-navigation": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/runtime": "7.4.5",
+    "babel-jest": "24.8.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-preset-react-native": "^4.0.1",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
